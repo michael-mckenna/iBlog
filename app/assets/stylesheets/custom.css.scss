@@ -4,16 +4,16 @@ $navbar-default-bg: black;
 @import "bootstrap";
 
 #logo {
+  font-family: "Raleway";
   float: left;
+  margin-left: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #D4F0FF;
+  text-shadow: 0 0 5px #fff;
   text-decoration: none;
 }
 
@@ -22,27 +22,37 @@ $navbar-default-bg: black;
 }
 
 .jumbotron {
-  background-image: asset-url('new_cover_page.png');
+  background-image: asset-url('keyboard-main.jpg');
   background-size: cover;
   height: 550px;
 }
 
 .jumbotron h1 {
-  color: #fff;
+  font-family: "Raleway";
+  color: #D4F0FF;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
+  text-shadow: 0 0 5px #fff;
+  margin-top: -30px;
   letter-spacing: -1px;
-  font-weight: bold;
 }
 
-.btn-xlarge {
+.btn-outline-primary {
   font-size: 1.7em;
-  background-color: black;
+  background-color: white;
+  color: #97FFFF;
+  border-color: #97FFFF;
+}
+
+.btn-outline-primary:hover {
+  background-color: #97FFFF;
+  border-color: white;
+  color: white;
 }
 
 .article-meta-details {
   border-top: 1px solid #eaeaea;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
 .article-actions {
