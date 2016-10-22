@@ -16,13 +16,15 @@ $navbar-default-bg: black;
   text-shadow: 0 0 5px #fff;
   text-decoration: none;
 }
-
+.navbar {
+    margin-bottom: -10px;
+    padding-bottom: 0px;
+}
 .navbar-default .navbar-nav > li > a {
   font-family: "Raleway";
   color: #D4F0FF;
   text-shadow: 0 0 5px #fff;
 }
-
 .navbar-default {
   background-color: #000000;
   border-color: #000000;
@@ -117,10 +119,21 @@ $navbar-default-bg: black;
   text-align: center;
 }
 
+.container-fluid {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 .jumbotron {
-  background-image: asset-url('keyboard-main.jpg');
   background-size: cover;
-  height: 550px;
+  background-image: asset-url('keyboard-main.jpg');
+  height: 100vh;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px;
+  margin: 0px !important;
+  width: 100%;
 }
 
 .jumbotron h1 {
@@ -129,13 +142,13 @@ $navbar-default-bg: black;
   text-align: center;
   margin-bottom: 90px;
   text-shadow: 0 0 5px #fff;
-  margin-top: -30px;
-  letter-spacing: -1px;
+  margin-top: 0px;
+  padding-top: 60px;
 }
 
 .btn-outline-primary {
   font-size: 1.7em;
-  background-color: white;
+  background-color: #000;
   color: #97FFFF;
   border-color: #97FFFF;
 }
